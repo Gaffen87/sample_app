@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 gem "htmlbeautifier"
+gem "bootstrap-sass"
+gem "sassc-rails"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
@@ -60,4 +62,5 @@ group :test do
   gem "selenium-webdriver"
   gem "minitest"
   gem "minitest-reporters"
+  gem "rails-controller-testing"
 end
