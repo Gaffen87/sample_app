@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem "htmlbeautifier"
 gem "bootstrap-sass"
 gem "sassc-rails"
+gem "ruby-lsp-rails"
+gem "bcrypt"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
