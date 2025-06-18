@@ -8,20 +8,20 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page], per_page: 10)
+    @users = User.where(activated: true).paginate(page: params[:page], per_page: 10)
   end
 
   def show
     @user = User.find(params[:id])
+    redirect_to root_url and return unless @user.activated?
   end
 
   def create
     @user = User.new(user_params)
     if @user.save
-      reset_session
-      login @user
-      flash[:success] = "Welcome #{@user.name}"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = "Please check your email to activate your account."
+      redirect_to root_url
     else
       render "new", status: :unprocessable_entity
     end
@@ -67,6 +67,6 @@ class UsersController < ApplicationController
   end
 
   def admin_user
-    current_user ? (redirect_to root_url, status: :see_other unless current_user.admin?) : (redirect_to login_url, status: :see_other)
+    current_user ? (redirect_to root_url, status: :see_other unless current_user&.admin?) : (redirect_to login_url, status: :see_other)
   end
 end
