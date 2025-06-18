@@ -6,7 +6,7 @@ gem "sassc-rails"
 gem "ruby-lsp-rails"
 gem "bcrypt"
 gem "faker"
-gem "will_paginate", "3.3.1"
+gem "will_paginate", "4.0.1"
 gem "bootstrap-will_paginate", "1.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
