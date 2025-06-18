@@ -2,4 +2,19 @@
 aske:
   name: Aske
   email: asketest@example.dk
+  admin: true
   password_digest: <%= User.digest "password" %>
+
+sabina:
+  name: Sabina
+  email: sabina@example.dk
+  admin: false
+  password_digest: <%= User.digest "password" %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  admin: false
+  password_digest: <%= User.digest "password" %>
+<% end %>

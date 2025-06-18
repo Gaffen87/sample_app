@@ -5,6 +5,9 @@ gem "bootstrap-sass"
 gem "sassc-rails"
 gem "ruby-lsp-rails"
 gem "bcrypt"
+gem "faker"
+gem "will_paginate", "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
@@ -48,7 +51,7 @@ group :development, :test do
   gem "brakeman", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem 'rubocop', require: false
+  gem "rubocop", require: false
   gem "rubocop-rails-omakase", require: false
 end
 
