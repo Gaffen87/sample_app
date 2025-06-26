@@ -3,6 +3,7 @@ require_relative "../config/environment"
 require "rails/test_help"
 require "minitest/reporters"
 Minitest::Reporters.use!
+ENV["PARALLEL_WORKERS"] = "1"
 
 module ActiveSupport
   class TestCase
