@@ -15,6 +15,23 @@ sabina:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+liva:
+  name: Liva
+  email: liva@example.dk
+  admin: false
+  password_digest: <%= User.digest "password" %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+magne:
+  name: Magne
+  email: magne@example.dk
+  admin: false
+  password_digest: <%= User.digest "password" %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+
 inactive:
   name: Inactive User
   email: inactive@example.com

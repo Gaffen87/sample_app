@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actiontext (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_storage_validations (v3.0.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v7.2.2.1, mise: 3.3.7) [gem]" level="application" />
@@ -74,6 +75,7 @@
     <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.4.6, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="htmlbeautifier (v1.4.3, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.7, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_processing (v1.14.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v2.1.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.8.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.15.2, mise: 3.3.7) [gem]" level="application" />
@@ -89,6 +91,7 @@
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.4, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.1.0, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v5.1.2, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.25.5, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest-reporters (v1.7.1, mise: 3.3.7) [gem]" level="application" />
@@ -130,7 +133,7 @@
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.10.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.6.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.4.1, mise: 3.3.7) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.76.0, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.75.5, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.45.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-performance (v1.25.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-rails (v2.32.0, mise: 3.3.7) [gem]" level="application" />
@@ -138,6 +141,7 @@
     <orderEntry type="library" scope="PROVIDED" name="ruby-lsp (v0.23.24, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-lsp-rails (v0.3.31, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.13.0, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-vips (v2.2.3, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.4.1, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, mise: 3.3.7) [gem]" level="application" />
@@ -148,6 +152,9 @@
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.2, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.5.2, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v2.6.0, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="standard (v1.50.0, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="standard-custom (v1.0.2, mise: 3.3.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="standard-performance (v1.8.0, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.3.4, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.1.7, mise: 3.3.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.3.2, mise: 3.3.7) [gem]" level="application" />

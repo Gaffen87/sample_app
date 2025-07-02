@@ -19,3 +19,25 @@ most_recent:
   content: "Writing a short test"
   created_at: <%= Time.zone.now %>
   user: aske
+
+ants:
+  content: "Oh, is that what you want? Because that's how you get ants!"
+  created_at: <%= 2.years.ago %>
+  user: sabina
+
+zone:
+  content: "Danger zone!"
+  created_at: <%= 3.days.ago %>
+  user: sabina
+
+tone:
+  content: "I'm sorry. Your words made sense, but your sarcastic tone did not."
+  created_at: <%= 10.minutes.ago %>
+  user: liva
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(word_count: 5) %>
+  created_at: <%= 42.days.ago %>
+  user: aske
+<% end %>
