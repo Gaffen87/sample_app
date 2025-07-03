@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  follower: aske
+  followed: sabina
+
+two:
+  follower: aske
+  followed: liva
+
+three:
+  follower: sabina
+  followed: aske
+
+four:
+  follower: magne
+  followed: aske

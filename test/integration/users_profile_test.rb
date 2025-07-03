@@ -10,6 +10,8 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
   test "profile display" do
     get user_path(@user)
     assert_template "users/show"
+    assert_select "a[href=?]", following_user_path(@user), text: @user.following.count.to_s + " following"
+    assert_select "a[href=?]", followers_user_path(@user), text: @user.followers.count.to_s + " followers"
     assert_select "title", full_title(@user.name)
     assert_select "h1", text: @user.name
     assert_select "h1>img.gravatar"
