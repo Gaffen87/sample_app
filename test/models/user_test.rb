@@ -101,6 +101,7 @@ class UserTest < ActiveSupport::TestCase
     end
     aske.microposts.each do |post_self|
       assert aske.feed.include?(post_self)
+      assert_equal aske.feed.distinct, aske.feed
     end
     magne.microposts.each do |post_unfollowed|
       assert_not aske.feed.include?(post_unfollowed)

@@ -28,6 +28,13 @@ class FollowPagesTest < Following
       assert_select "a[href=?]", user_path(user)
     end
   end
+
+  test "feed on Home page" do
+    get root_path
+    @user.feed.paginate(page: 1, per_page: 10).each do |item|
+      assert_match CGI.escapeHTML(item.content), response.body
+    end
+  end
 end
 
 class FollowTest < Following
